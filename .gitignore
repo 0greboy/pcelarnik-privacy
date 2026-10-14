@@ -1,0 +1,21 @@
+# Safety: this repository should only contain the approved static policy page.
+*
+!index.html
+!README.md
+!.gitignore
+
+# Never publish binaries, app project data, credentials, user records or backups.
+*.apk
+*.aab
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.zip
+*.db
+*.sqlite
+*.sqlite3
+*.json
+*.log
+.env
+.env.*
